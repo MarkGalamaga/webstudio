@@ -1,0 +1,90 @@
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-text-white);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--color-text-white);
+  background-color: var(--header-text-color--active);
+  border: none;
+  cursor: pointer;
+  padding: 10px 32px;
+}
+
+.hero-title {
+  background-color: var(--color-background-hero);
+  padding-bottom: 216px;
+  padding-top: 200px;
+}
+
+.benefit-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-dark);
+}
+
+.benefit-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--color-address);
+}
+
+.employ-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--background-dark);
+}
+
+.employ-img {
+  width: 370px;
+  height: 294px;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--background-dark);
+}
+
+.team-img {
+  width: 270px;
+  height: 260px;
+}
+
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--background-dark);
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--color-addressc);
+}
+
+.team-section {
+  background-color: var(--background-light);
+}

@@ -1,0 +1,40 @@
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--background-dark);
+  background-color: var(--background-light);
+  border: none;
+  cursor: pointer;
+  padding: 6px 25px;
+  border-radius: 4px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--color-text-white);
+  background-color: var(--header-text-color--active);
+}
+
+.portfolio-img {
+  width: 370px;
+  height: 294px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: var(--background-dark);
+}
+
+.portfolio-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: var(--color-address);
+}
