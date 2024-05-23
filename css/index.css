@@ -1,11 +1,7 @@
 .hero {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 136%;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--color-text-white);
+  background-color: var(--color-background-hero);
+  padding: 200px 0;
+  margin-bottom: 94px;
 }
 
 .hero-button {
@@ -19,12 +15,24 @@
   border: none;
   cursor: pointer;
   padding: 10px 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
-  background-color: var(--color-background-hero);
-  padding-bottom: 216px;
-  padding-top: 200px;
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-text-white);
+  margin-bottom: 30px;
+}
+
+.benefits {
+  margin-bottom: 94px;
 }
 
 .benefit-title {
@@ -43,6 +51,10 @@
   color: var(--color-address);
 }
 
+.employ {
+  margin-bottom: 94px;
+}
+
 .employ-title {
   font-weight: 700;
   font-size: 36px;
@@ -54,6 +66,13 @@
 .employ-img {
   width: 370px;
   height: 294px;
+}
+
+.team {
+  background-color: var(--background-light);
+
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
