@@ -1,3 +1,15 @@
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
 .filter-button {
   font-weight: 500;
   font-size: 16px;
@@ -18,25 +30,34 @@
   background-color: var(--header-text-color--active);
 }
 
-.portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
-.portfolio-img {
-  width: 370px;
+.card-item {
+  width: calc((100% - 60px) / 3);
+  padding-bottom: 20px;
+}
+
+.card-img {
+  width: 100%;
   height: 294px;
+  margin-bottom: 20px;
 }
 
-.portfolio-title {
+.card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
   color: var(--background-dark);
+  margin-bottom: 4px;
 }
 
-.portfolio-position {
+.card-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 187%;
