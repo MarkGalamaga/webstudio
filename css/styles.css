@@ -58,13 +58,11 @@ body {
 
 .page-header {
   display: flex;
-  justify-content: space-between;
   padding: 24px 0;
 }
 
 .logo-group {
   display: flex;
-  gap: 93px;
   align-items: center;
 }
 
@@ -74,6 +72,7 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: var(--header-text-color--active);
+  margin-right: 93px;
 }
 
 .page-header .logo-decor {
@@ -87,10 +86,9 @@ body {
   color: var(--main-text);
 }
 
-.header-nav .nav-list {
+.nav-list {
   display: flex;
   gap: 50px;
-  align-items: center;
 }
 
 .page-header .nav-link:hover,
@@ -105,7 +103,7 @@ body {
 .page-header .contacts-list {
   display: flex;
   gap: 50px;
-  align-items: center;
+  margin-left: auto;
 }
 
 .page-header .contacts-link {
