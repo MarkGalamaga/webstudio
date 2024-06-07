@@ -10,6 +10,7 @@
   --color-address: #757575;
   --color-text-white: #ffffff;
   --color-background-hero: #2f303a;
+  --color-border-portfilio: #eeeeee;
 }
 
 *,
@@ -58,6 +59,7 @@ body {
 .page-header {
   display: flex;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .logo-group {
@@ -72,7 +74,6 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: var(--header-text-color--active);
-  padding: 24px 0;
 }
 
 .page-header .logo-decor {
