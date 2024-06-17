@@ -42,13 +42,12 @@
 }
 
 .benefits {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .benefits-list {
   display: flex;
   gap: 30px;
-  justify-content: space-between;
 }
 
 .benefits-item {
@@ -73,12 +72,12 @@
 }
 
 .employ {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .employ-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .employ-item {
@@ -108,7 +107,7 @@
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+
   gap: 30px;
 }
 
