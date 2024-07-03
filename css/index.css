@@ -1,18 +1,11 @@
 .hero {
   background-color: var(--color-background-hero);
   padding: 200px 0;
-  margin-bottom: 94px;
+  text-align: center;
 }
 
 .logo {
   align-items: center;
-}
-
-.hero .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
 }
 
 .hero-button {
@@ -26,8 +19,6 @@
   border: none;
   cursor: pointer;
   padding: 10px 32px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-title {
@@ -39,10 +30,14 @@
   text-transform: uppercase;
   text-align: center;
   color: var(--color-text-white);
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .benefits {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .benefits-list {
