@@ -11,6 +11,7 @@
   --color-text-white: #ffffff;
   --color-background-hero: #2f303a;
   --color-border-portfilio: #eeeeee;
+  --color-icon-social: #afb1b8;
 }
 
 *,
@@ -50,7 +51,7 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -105,6 +106,42 @@ body {
   color: var(--header-text-color--active);
 }
 
+.contacts-list {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.contacts-icon {
+  fill: var(--color-address);
+  width: 16px;
+  height: 16px;
+}
+
+.contacts-item:nth-child(2) .contacts-icon {
+  width: 10px;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--color-address);
+}
+
+.contacts-link:hover .contacts-icon,
+.contacts-link:focus .contacts-icon,
+.contacts-link.active .contacts-icon {
+  fill: var(--header-text-color--active);
+}
+
+.logo-decor {
+  color: var(--color-text-white);
+}
+
 .footer-logo {
   font-family: var(--second-family);
   font-weight: 700;
@@ -113,32 +150,14 @@ body {
   color: var(--header-text-color--active);
 }
 
-.contacts-list {
-  display: flex;
-  gap: 50px;
-  margin-left: auto;
-}
-
-.contacts-link {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  color: var(--color-address);
-}
-
-.contacts-link:hover,
-.contacts-link:focus,
-.contacts-link.active {
-  color: var(--header-text-color--active);
-}
-
-.logo-decor {
-  color: var(--color-text-white);
-}
-
 .footer-address {
   font-style: normal;
   margin-top: 20px;
+}
+
+.footer-group {
+  display: flex;
+  gap: 70px;
 }
 
 .page-footer {
@@ -180,4 +199,42 @@ body {
 .footer-address:focus,
 .footer-address.active {
   color: var(--header-text-color--active);
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+
+.socialmedia-footerlink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socialmedia-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.socialmedia-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-text-white);
+}
+
+.socialmedia-footerlink:hover,
+.socialmedia-footerlink:focus,
+.socialmedia-footerlink:active {
+  background-color: var(--header-text-color--active);
 }
