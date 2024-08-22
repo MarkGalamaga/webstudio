@@ -110,6 +110,7 @@
 
 .employ-item {
   width: calc((100% - 60px) / 3);
+  position: relative;
 }
 
 .employ-title {
@@ -126,9 +127,23 @@
   height: 294px;
 }
 
+.employ-box {
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.employ-position {
+  color: var(--color-text-white);
+  font-size: 14px;
+  padding: 27px 0;
+  text-align: center;
+}
+
 .team {
   background-color: var(--background-light);
-
   padding-top: 94px;
   padding-bottom: 94px;
 }
