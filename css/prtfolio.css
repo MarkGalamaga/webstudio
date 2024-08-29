@@ -3,6 +3,10 @@
   padding-bottom: 94px;
 }
 
+.logo-group {
+  margin-bottom: 25px;
+}
+
 .button-list {
   display: flex;
   justify-content: center;
@@ -72,4 +76,11 @@
   line-height: 187%;
   letter-spacing: 0.03em;
   color: var(--color-address);
+}
+
+.header-line {
+  border-bottom: 1px solid var(--color-border-portfilio);
+  height: 1px;
+  width: 100%;
+  border-top: none;
 }
