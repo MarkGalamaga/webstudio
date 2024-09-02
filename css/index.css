@@ -301,8 +301,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
-  height: 581px;
   padding: 40px;
   background-color: var(--color-text-white);
   transform: translate(-50%, -50%);
@@ -393,13 +391,23 @@
   margin-bottom: 4px;
 }
 
-.modal-label:hover .modal-input-icon,
+/* .modal-label:hover .modal-input-icon,
 .modal-label:focus .modal-input-icon {
   fill: var(--header-text-color--active);
 }
 
 .modal-label:hover .modal-input,
 .modal-label:focus .modal-input {
+  border-color: var(--header-text-color--active);
+} */
+
+.modal-input:hover ~ .modal-input-icon,
+.modal-input:focus ~ .modal-input-icon {
+  fill: var(--header-text-color--active);
+}
+
+.modal-input:hover,
+.modal-input:focus {
   border-color: var(--header-text-color--active);
 }
 
