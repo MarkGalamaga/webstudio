@@ -391,16 +391,6 @@
   margin-bottom: 4px;
 }
 
-/* .modal-label:hover .modal-input-icon,
-.modal-label:focus .modal-input-icon {
-  fill: var(--header-text-color--active);
-}
-
-.modal-label:hover .modal-input,
-.modal-label:focus .modal-input {
-  border-color: var(--header-text-color--active);
-} */
-
 .modal-input:hover ~ .modal-input-icon,
 .modal-input:focus ~ .modal-input-icon {
   fill: var(--header-text-color--active);
